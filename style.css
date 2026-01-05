@@ -1,0 +1,374 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navigation {
+  background-color: #202020;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 100px 10px 100px;
+}
+.logo {
+  color: #00f988;
+  font-size: larger;
+  font-weight: 900px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+.hero-section {
+  background-image: url("./assets/hero-img.png");
+  text-align: center;
+  color: white;
+  height: 60vh;
+  align-content: center;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 50px;
+}
+.hero-section p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.btn {
+  background-color: #00ff89;
+  color: #00210a;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+  border: none;
+  font-weight: bolder;
+}
+.first-section h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+hr {
+  width: 50px;
+  margin: 15px auto 30px auto;
+  border: 2px solid #00ff89;
+}
+.first-section button {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 5px 35px 5px 35px;
+  border: none;
+  border-radius: 100px;
+}
+.membership-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.membership-list {
+  height: 45vh;
+  list-style: none;
+  line-height: 40px;
+  background-color: #ffffff;
+}
+.membership-plan-list {
+  border: rgb(242, 237, 237) 1px solid;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.check {
+  color: #00ff89;
+  padding-right: 30px;
+}
+.most-popular {
+  border: 2px solid #00ff89;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fafffa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.most-popular h5 {
+  text-align: center;
+  color: #275d44;
+  background-color: #00f988;
+  padding: 5px;
+  border-radius: 100px;
+  width: fit-content;
+  font-size: xx-small;
+  margin: 0 auto;
+}
+.most-popular h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.membership-plan-list h3 {
+  text-align: center;
+}
+.first-section p {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.first-section span {
+  font-size: xx-small;
+}
+.second-section {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.second-section h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+.table-wrapper {
+  max-width: 90%;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  height: 70vh;
+}
+table,
+th,
+td,
+h2,
+h3,
+li {
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.time {
+  background-color: #00ff7f;
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.classes {
+  font-weight: bolder;
+}
+
+thead {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+}
+th {
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  background-color: #000;
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+td {
+  padding: 16px;
+  font-size: 14px;
+  color: #333;
+}
+tbody tr {
+  border-bottom: 1px solid #eaeaea;
+}
+th:last-child {
+  border-right: none;
+}
+.third-section {
+  
+  margin-top: 20px;
+}
+.third-section h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.gym-images {
+  width: 80px;
+  height: 80px;
+}
+.fitlife-features {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+.fitlife-features p {
+  margin-top: 15px;
+  line-height: 25px;
+  font-size: small;
+
+}
+.fourth-section h1 {
+  margin-top: 120px;
+  text-align: center;
+}
+.registration-form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+
+.form-group-list {
+  grid-column: span 2;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.checkbox-group,
+.radio-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  line-height: 1.5px;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.checkbox-label,
+.radio-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.text{
+  font-size: small;
+  font-weight: normal;
+  color: #555;
+}
+.star{
+  font-size: small;
+  font-weight: normal;
+  color: red;
+}
+.checkbox-input,
+.radio-input {
+  width: auto;
+}
+.medical-textarea {
+  resize: none;
+  height: 100px;
+  width: 700px;
+  margin-top: 15px;
+}
+.agreement {
+  grid-column: span 2;
+}
+.submit-btn{
+  grid-column: span 2;
+  text-align: center;
+}
+.submit-button {
+  background-color: #00ff88;
+  text-align: center;
+  color: #00210a;
+  border: none;
+  padding: 10px 200px 10px 200px;
+  border-radius: 100px;
+  font-weight: bolder;
+  }
+  footer {
+    background-color: #202020;
+    color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+   
+  }
+  .footer h3{
+    margin-bottom: 15px;
+    color: #00fc89;
+  }
+  .footer-content-div{
+    display: flex;
+    gap: 150px;
+  }
+  .footer-content-list {
+    list-style: none;
+    line-height: 40px;
+  }
+  .location, .phone{
+    color: red;
+    margin-right: 10px;
+  }
+  .pro{
+    font-weight: bold;
+    color: #858b8a;
+    font-size: small;
+  }
+
+  .footer-line{
+    border: 1px solid #555;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .footer-bottom p{
+    text-align: center;
+    font-size: small;
+    color: #858b8a;
+    font-weight: bold;
+  }
+
